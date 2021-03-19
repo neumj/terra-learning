@@ -11,3 +11,6 @@ https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands-example.ht
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     AWS_DEFAULT_REGION: "us-east-1"
+# aws cli: vpc
+aws ec2 create-vpc --cidr-block 213.213.47.0/24 
+aws ec2 create-tags --resources vpc-0d861ba2057ba0316 --tags Key=Name,Value=tripolitales-vpc
