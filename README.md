@@ -13,4 +13,5 @@ https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands-example.ht
     AWS_DEFAULT_REGION: "us-east-1"
 # aws cli: vpc
 aws ec2 create-vpc --cidr-block 213.213.47.0/24 
-aws ec2 create-tags --resources vpc-0d861ba2057ba0316 --tags Key=Name,Value=tripolitales-vpc
+aws ec2 create-tags --resources vpc-0d861ba2057ba0316 --tags Key=Name,Value=tripolitales-vpc    
+https://docs.aws.amazon.com/dlami/latest/devguide/what-is-dlami.html
